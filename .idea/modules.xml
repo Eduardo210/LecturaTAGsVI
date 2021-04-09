@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telepeaje_29-03-2021_13-00.iml" filepath="$PROJECT_DIR$/.idea/modules/telepeaje_29-03-2021_13-00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/telepeaje_29-03-2021_13-00.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/telepeaje_29-03-2021_13-00.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/componentepeaje/telepeaje_29-03-2021_13-00.componentepeaje.iml" filepath="$PROJECT_DIR$/.idea/modules/componentepeaje/telepeaje_29-03-2021_13-00.componentepeaje.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/borderlayout"
+    android:layout_marginLeft="0dp"
+    app:layout_goneMarginRight="20dp"
+    tools:context="com.lectura.tags.peaje.ConfiguracionActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/ConfigIma"
+        android:layout_gravity="center"
+        android:src="@drawable/logofac"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Power 6B(100 a 300)"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:fontFamily="sans-serif-light"
+            android:inputType="number"
+            android:id="@+id/txtPower6B"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Power 6C(100 a 300)"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:fontFamily="sans-serif-light"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtPower6C"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Power TR(100 a 300)"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:fontFamily="sans-serif-light"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtPowerTR"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="TIME 6B(600 a 1000)"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:fontFamily="sans-serif-light"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtTime6B"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="TIME 6C(400 a 1000)"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:fontFamily="sans-serif-light"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtTime6C"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="TIME TR(600 a 1000)"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.6"
+            android:fontFamily="sans-serif-light"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtTimeTR"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+       android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitCenter"
+        android:text="Guardar"
+        android:textColor="@color/colorlack"
+        android:background="@drawable/botonesazul"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
